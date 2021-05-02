@@ -90,7 +90,7 @@
   flex-direction: column;
   flex-flow: column;
 }
-/* .card1 { */
+.card1 {
 width: 758px;
 height: 300px;
 top: 84px;
@@ -99,19 +99,15 @@ filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
 border: 1px solid #e6effb;
 border-radius: 5px;
 padding: 0 4px;
-position: absolute;
 background-color: coral;
-/* } */
+}
 .card1-1 {
   display: flex;
   justify-content: space-between;
 }
 .card2 {
-  position: absolute;
-  width: 758px;
+  width: 100%;
   height: 300px;
-  top: 84px;
-  left: 276px;
   filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
   border: 1px solid #e6effb;
   border-radius: 5px;
@@ -155,18 +151,13 @@ background-color: coral;
   color: #7c8db5;
 }
 .grid-item1 {
-  width: 133px;
+  width: 100%;
   height: 125px;
-  position: absolute;
-  left: 9.2%;
-  right: 9.2%;
-  top: 7.32%;
-  bottom: 31.71%;
   border-radius: 15px;
-  background: url(./img/Rectangle\6\\(4\).png);
+  background: url(img/Rectangle_6_4.png);
 }
 
-/* .card3{ */
+/* .card3{
 position: absolute;
 width: 758px;
 height: 300px;
@@ -177,8 +168,7 @@ border: 1px solid #e6effb;
 border-radius: 5px;
 padding: 0 4px;
 background-color: crimson;
-
-/* } */
+} */
 
 .SA {
   color: #7c8db5;
