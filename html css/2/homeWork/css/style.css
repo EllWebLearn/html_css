@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(170, 167, 167);
+}
+.menu li:hover a {
+  color: brown;
+}
+.menu li{
+  margin: 0 15px;
+  border: 1px solid white;
+  padding: 4px;
+}
+
+.menu a {
+  color: rgb(247, 239, 134);
+  font-size: 20px;
+  font-weight: bold;
+}
+.menu {
+  list-style-type: none;
+  line-height: 16px;
+  padding: 0;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container {
+  background-color: cornflowerblue;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 166, 0);
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(255, 165, 80);
+}
+.wellcome-container {
+  background-color: lightgrey;
+  font-weight: unset;
+}
+.header {
+  border-bottom: 3px solid white;
+  height: 100px;
+  background-image:url(../img/fon.jpg);
+  justify-content: space-between;
+  display: flex;
+}
+.container {
+  width: 1200;
+  margin: 0 auto;
+}
+/* .block{ 
+  width: 100px;
+  height: auto;
+  border: black;
+  background-color: rgb(107, 163, 189);
+  display: flex;
+  justify-content:space-around ;
+
+}*/
+.footer {
+  height: 100px;
+  background-color: gray;
+  justify-content: flex-end;
+  display: flex;
+  padding: 2px 50px;
+}
+.products {
+  display: flex;
+}
+.navigation-title{
+  font-weight: bold;
+  padding left: 200px;
+  margin: 200px;
+}

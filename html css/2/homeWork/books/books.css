@@ -1,0 +1,63 @@
+body {
+  background: #c0bbbb;
+}
+.title {
+  color: red;
+  font: size 18px;
+  font-weight: 400;
+}
+.description {
+  /* color: #484343;
+  font-size: 16px;
+  font-weight: 400; */
+  line-height: 24px;
+  text-align: center;
+}
+img {
+  border: 1px solid red;
+}
+img:hover {
+  border: none;
+}
+.kratkoe title {
+  /* color: lightgreen;
+  font-size: 14px;
+  font-style: italic; */
+  line-height: 16px;
+}
+ /*.xarakteristika {
+  color: blue;
+  font-size: 20px;
+  font-style: normal;
+} */
+.svoystva {
+  list-style-image: url(https://d1nhio0lox7pgb.cloudfront.net/_img/g_collection_png/standard/16x16/check.png);
+}
+table {
+  width: 100px;
+  height: 300px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table, th, td{
+  border: 1px solid black;
+}
+td {
+  text-align: center;
+}
+.first-field {
+  height: 40px;
+}
+p:first-letter{
+  color:darkorange;
+  font-size: larger;
+  font-style: italic;
+}
+.tovar{
+  display: flex;
+
+}
+button{
+  color:aliceblue;
+  background-color: black;
+}

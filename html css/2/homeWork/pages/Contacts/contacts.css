@@ -1,0 +1,47 @@
+input [type="email"]:invalid{
+  background-color: rgb(255, 80, 80);
+  border:2px solid red;
+}
+input [type="email"] {
+  border:2px solid black;
+  color:rgb(18, 20, 22);
+  background-color: rgb(172, 193, 212);
+}
+.form-field:focus{
+  color:black;
+  background-color: rgb(179, 216, 241);
+}
+.form-field {
+  text-transform: capitalize;
+  background-color: rgb(226, 222, 222);
+}
+textarea {
+  height: 100px;
+  background-color: rgb(184, 189, 186);
+  text-transform: uppercase;
+}
+.submit {
+  background-color: rgb(255, 145, 0);
+}
+
+.adres{
+  background-color: rgb(189, 112, 13);
+}
+
+/* h1 { 
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 196, 0);
+  text-transform: uppercase;
+}*/
+h3 {
+  text-align:left;
+}
+.main-container{
+  background-color: gold;
+
+}
+.adres {
+  color: rgb(255, 238, 0);
+  list-style-image: url(https://d1nhio0lox7pgb.cloudfront.net/_img/g_collection_png/standard/16x16/check.png);
+}
