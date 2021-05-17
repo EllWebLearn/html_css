@@ -34,8 +34,10 @@
 }
 .navigation-list {
   list-style-type: none;
-  /* position: relative; */
   padding: 0;
+}
+.navigation-title{
+  font-weight: bold;
 }
 
 .navigations {
@@ -91,19 +93,37 @@
   flex-flow: column;
 }
 .card1 {
-width: 758px;
-height: 300px;
-top: 84px;
-left: 276px;
-filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
-border: 1px solid #e6effb;
-border-radius: 5px;
-padding: 0 4px;
-background-color: coral;
+  width: 100%;
+  height: 300px;
+  top: 84px;
+  filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
+  border: 1px solid #e6effb;
+  border-radius: 5px;
+  
 }
 .card1-1 {
   display: flex;
   justify-content: space-between;
+}
+.FL{
+  font-family: Averta;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 22px;
+  color: #2D2D2D;
+  ;
+
+}
+.card1-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.play{
+width: 37.56px;
+height: 40px;
+border-radius: 10px;
+background-color: #ffffff;
 }
 .card2 {
   width: 100%;
@@ -111,8 +131,9 @@ background-color: coral;
   filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
   border: 1px solid #e6effb;
   border-radius: 5px;
-  padding: 62 33 25 21px;
-  background-color: chartreuse;
+  padding: 0 4px;
+  top: 84px;
+   margin: 20px 0;
 }
 .card2-1 {
   display: flex;
@@ -120,7 +141,15 @@ background-color: coral;
 }
 .card2-2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.B-T{
+  font-family: Averta;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2D2D2D;
 }
 .border {
   height: 205px;
@@ -128,7 +157,6 @@ background-color: coral;
   left: 299px;
   top: 477px;
   border-radius: 0px;
-  
 }
 .p1 {
   font-family: Averta;
@@ -150,29 +178,150 @@ background-color: coral;
   text-align: left;
   color: #7c8db5;
 }
-.grid-item1 {
+
+.card3 {
   width: 100%;
-  height: 125px;
-  border-radius: 15px;
-  background: url(img/Rectangle_6_4.png);
+  height: 300px;
+  left: 276px;
+  filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
+  border: 1px solid #e6effb;
+  border-radius: 5px;
+  padding: 0 4px;
 }
+.card3-1{
+  display: flex;
+  justify-content: space-between;
+}
+.seeall{
+  font-style: normal;
+  font-weight:bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.row{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.row1{
+  display: flex;
 
-/* .card3{
-position: absolute;
-width: 758px;
-height: 300px;
-top: 84px;
-left: 276px;
-filter: drop-shadow(0px 4px 64px rgba(0 0 0 0.05));
-border: 1px solid #e6effb;
-border-radius: 5px;
-padding: 0 4px;
-background-color: crimson;
-} */
-
+}
+.p11{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.p22{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color:#7C8DB5;
+  margin: 0 0 10 10px;
+}
+.pp{
+  margin: 0 0 0 20px;
+}
+.row2{
+  display: flex;
+}
+.row{
+  margin: 0px;
+  padding: 0px;
+}
 .SA {
   color: #7c8db5;
   font-family: Averta;
   font-size: 16px;
   font-style: normal;
+}
+.not1{
+  display: flex;
+  justify-content:space-between;
+}
+.not{
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+}
+.not-p1{
+  margin-left: 20px;
+}
+.not-p2{
+  margin-left: 20px;
+}
+.novpic{
+  display: flex;
+}
+.play{
+  margin: 00 15px;
+}
+.p1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+  color: #2D2D2D;
+
+}
+.p2{
+  color: #7C8DB5;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+
+}
+.no-tp1{
+  margin: 0 0 0 20PX;
+}
+.number{
+  margin-left: 20px;
+}
+.img{
+  margin-left: 20px;
+}
+.notrow{
+  display: flex;
+  justify-content:space-between;
+}
+.ta{
+font-weight: bold;
+font-style: normal;
+color: #2D2D2D; 
+font-size: 18px;
+list-style: 22px;
+}
+.mins{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #7C8DB5;
+}
+.not2-1{
+  display: flex;
+  justify-content: space-between;
+}
+.not2-3{
+  display: flex;
+  justify-content: space-between;
+}
+.not2-2{
+  display: flex;
+  justify-content: space-between;
+}
+.player{
+  margin: 50px;
+}
+.time{
+  padding: 15px 0;
+}
+.cover-conteiner{
+  position: relative;
+}
+.play-button{
+  position: absolute;
+  right: 10px;
+  bottom: 10px ;
+  display: block;
 }
